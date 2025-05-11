@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food Blogging Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>🍳 Tasty Tales</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Submit Recipe</a>
+      </nav>
+      <nav>
+        <a href="comments.html">💬 Comments</a>
+        <a href="hotels.html">🏨 Famous Hotels</a>
+        <a href="chefs.html">👨‍🍳 Food Personalities</a>
+        <a href="spices.html">🧂 Exotic Spices</a>
+        <a href="review.html">⭐ Leave a Review</a>
+      </nav>
+      
+    </div>
+    <div class="banner">
+      <h2>Share Your Favorite Recipes with the World 🌍</h2>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card post-form">
+      <h2>Create a Delicious Post</h2>
+      <form id="postForm">
+        <input type="text" id="title" placeholder="Recipe Title" required />
+        <textarea id="content" rows="5" placeholder="Write your recipe or article..." required></textarea>
+        <button type="submit">🍽️ Post Recipe</button>
+      </form>
+    </div>
+
+    <div id="postsContainer"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
